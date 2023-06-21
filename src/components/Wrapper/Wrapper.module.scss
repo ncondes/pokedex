@@ -1,0 +1,23 @@
+@use '@/scss/mixins' as *;
+
+.wrapper {
+   width: 100%;
+   min-height: calc(100vh - 3.5rem - 2rem); // 100vh - header height - margin
+   max-width: 320px;
+   margin-top: 2rem;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 3rem;
+
+   @include breakpoint-up('md') {
+      max-width: 640px;
+   }
+
+   @include breakpoint-up('lg') {
+      max-width: 960px;
+   }
+
+   @include breakpoint-up('xl') {
+      max-width: 1280px;
+   }
+}

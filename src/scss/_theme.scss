@@ -1,0 +1,37 @@
+@use '@/scss/colors' as *;
+
+// body bg
+.light-body-bg {
+   background-color: $light-body-bg-color;
+}
+
+.dark-body-bg {
+   background-color: $dark-body-bg-color;
+}
+
+// font
+.light-font {
+   color: $light-font-color;
+}
+
+.dark-font {
+   color: $dark-font-color;
+}
+
+// card bg
+.light-card-bg {
+   background-color: $light-card-bg-color;
+}
+
+.dark-card-bg {
+   background-color: $dark-card-bg-color;
+}
+
+// input bg
+.light-input-bg {
+   background-color: $light-search-input-color;
+}
+
+.dark-input-bg {
+   background-color: $dark-search-input-color;
+}

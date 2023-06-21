@@ -1,0 +1,35 @@
+@use '@/scss/colors' as *;
+
+.select {
+   display: flex;
+   width: 100%;
+   margin: 0 auto;
+
+   > div {
+      display: flex;
+      height: 2.1rem;
+      justify-content: center;
+      align-items: center;
+      width: 3rem;
+      background-color: $blue-primary-color;
+      border-radius: 0 0.5rem 0.5rem 0;
+
+      > i {
+         color: $white-cream-color;
+      }
+   }
+
+   select {
+      border: none;
+      border-radius: 0.5rem 0 0 0.5rem;
+      padding: 0.5rem;
+      font-size: 0.9rem;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 1rem;
+
+      &:focus {
+         outline: none;
+      }
+   }
+}

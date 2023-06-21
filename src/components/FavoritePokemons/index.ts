@@ -1,0 +1,1 @@
+export { FavoritePokemons } from './FavoritePokemons'

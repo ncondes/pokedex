@@ -1,0 +1,479 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonManager should match snapshot 1`] = `
+<div>
+  <p
+    class="introduction light-font"
+  >
+    Welcome to your Favorite Pokemon Section! Discover, admire, and celebrate the Pokemon that hold a special place in your heart.
+  </p>
+  <div
+    class="tools"
+  >
+    <div
+      class="search_box light-input-bg"
+    >
+      <input
+        class="light-font"
+        type="text"
+        value=""
+      />
+      <button
+        disabled=""
+      >
+        <i
+          class="fa-solid fa-spinner fa-spin"
+        />
+      </button>
+    </div>
+    <div
+      class="select"
+    >
+      <select
+        class="light-font light-input-bg"
+        id="pokemon-select-filter"
+        name="pokemon-select-filter"
+      >
+        <option
+          value="all"
+        >
+          All
+        </option>
+        <option
+          value="bug"
+        >
+          Bug
+        </option>
+        <option
+          value="dark"
+        >
+          Dark
+        </option>
+        <option
+          value="dragon"
+        >
+          Dragon
+        </option>
+        <option
+          value="electric"
+        >
+          Electric
+        </option>
+        <option
+          value="fairy"
+        >
+          Fairy
+        </option>
+        <option
+          value="fighting"
+        >
+          Fighting
+        </option>
+        <option
+          value="fire"
+        >
+          Fire
+        </option>
+        <option
+          value="flying"
+        >
+          Flying
+        </option>
+        <option
+          value="ghost"
+        >
+          Ghost
+        </option>
+        <option
+          value="grass"
+        >
+          Grass
+        </option>
+        <option
+          value="ground"
+        >
+          Ground
+        </option>
+        <option
+          value="ice"
+        >
+          Ice
+        </option>
+        <option
+          value="normal"
+        >
+          Normal
+        </option>
+        <option
+          value="poison"
+        >
+          Poison
+        </option>
+        <option
+          value="psychic"
+        >
+          Psychic
+        </option>
+        <option
+          value="rock"
+        >
+          Rock
+        </option>
+        <option
+          value="steel"
+        >
+          Steel
+        </option>
+        <option
+          value="water"
+        >
+          Water
+        </option>
+      </select>
+      <div>
+        <i
+          class="fa-solid fa-filter"
+        />
+      </div>
+    </div>
+    <div
+      class="select"
+    >
+      <select
+        class="light-font light-input-bg"
+        id="pokemon-select-sort"
+        name="pokemon-select-sort"
+      >
+        <option
+          value="ascending"
+        >
+          Ascending
+        </option>
+        <option
+          value="descending"
+        >
+          Descending
+        </option>
+      </select>
+      <div>
+        <i
+          class="fa-solid fa-sort"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="pokemon_grid"
+  >
+    <article
+      class="pokemon_card pokemon-type-grass"
+    >
+      <section>
+        <div
+          class="pokemon_header"
+        >
+          <h2>
+            Bulbasaur
+          </h2>
+          <button>
+            <i
+              class="fa-regular fa-heart fa-xl"
+            />
+          </button>
+        </div>
+        <div
+          class="pokemon_chips"
+        >
+          <div
+            class="pokemon_chip"
+          >
+            Grass
+          </div>
+        </div>
+        <div
+          class="pokemon_bg_image_container"
+        >
+          <div
+            class="pokeball_icon"
+          >
+            <img
+              alt="pokeball icon"
+              data-nimg="1"
+              decoding="async"
+              height="150"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Fpokeball-icon.png&w=384&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fpokeball-icon.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fpokeball-icon.png&w=384&q=75 2x"
+              style="color: transparent;"
+              width="150"
+            />
+          </div>
+          <div
+            class="points_icon"
+          >
+            <img
+              alt="points icon"
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Fpoints-icon.png&w=128&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fpoints-icon.png&w=64&q=75 1x, /_next/image?url=%2Fimages%2Fpoints-icon.png&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="lines_icon"
+          >
+            <img
+              alt="lines icon"
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Flines-icon.png&w=128&q=75"
+              srcset="/_next/image?url=%2Fimages%2Flines-icon.png&w=64&q=75 1x, /_next/image?url=%2Fimages%2Flines-icon.png&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="pokemon_image"
+          >
+            <img
+              alt="pokemon image"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="200"
+              src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F1.png&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F1.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F1.png&w=640&q=75 2x"
+              style="color: transparent;"
+              width="200"
+            />
+          </div>
+        </div>
+      </section>
+      <div
+        class="pokemon_stats light-card-bg"
+      >
+        <p
+          class="light-font"
+        >
+          Base Stats
+        </p>
+        <div
+          class="base_stats"
+        />
+      </div>
+    </article>
+    <article
+      class="pokemon_card pokemon-type-fire"
+    >
+      <section>
+        <div
+          class="pokemon_header"
+        >
+          <h2>
+            Charizard
+          </h2>
+          <button>
+            <i
+              class="fa-regular fa-heart fa-xl"
+            />
+          </button>
+        </div>
+        <div
+          class="pokemon_chips"
+        >
+          <div
+            class="pokemon_chip"
+          >
+            Fire
+          </div>
+        </div>
+        <div
+          class="pokemon_bg_image_container"
+        >
+          <div
+            class="pokeball_icon"
+          >
+            <img
+              alt="pokeball icon"
+              data-nimg="1"
+              decoding="async"
+              height="150"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Fpokeball-icon.png&w=384&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fpokeball-icon.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fpokeball-icon.png&w=384&q=75 2x"
+              style="color: transparent;"
+              width="150"
+            />
+          </div>
+          <div
+            class="points_icon"
+          >
+            <img
+              alt="points icon"
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Fpoints-icon.png&w=128&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fpoints-icon.png&w=64&q=75 1x, /_next/image?url=%2Fimages%2Fpoints-icon.png&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="lines_icon"
+          >
+            <img
+              alt="lines icon"
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Flines-icon.png&w=128&q=75"
+              srcset="/_next/image?url=%2Fimages%2Flines-icon.png&w=64&q=75 1x, /_next/image?url=%2Fimages%2Flines-icon.png&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="pokemon_image"
+          >
+            <img
+              alt="pokemon image"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="200"
+              src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F6.png&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F6.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F6.png&w=640&q=75 2x"
+              style="color: transparent;"
+              width="200"
+            />
+          </div>
+        </div>
+      </section>
+      <div
+        class="pokemon_stats light-card-bg"
+      >
+        <p
+          class="light-font"
+        >
+          Base Stats
+        </p>
+        <div
+          class="base_stats"
+        />
+      </div>
+    </article>
+    <article
+      class="pokemon_card pokemon-type-electric"
+    >
+      <section>
+        <div
+          class="pokemon_header"
+        >
+          <h2>
+            Pikachu
+          </h2>
+          <button>
+            <i
+              class="fa-regular fa-heart fa-xl"
+            />
+          </button>
+        </div>
+        <div
+          class="pokemon_chips"
+        >
+          <div
+            class="pokemon_chip"
+          >
+            Electric
+          </div>
+        </div>
+        <div
+          class="pokemon_bg_image_container"
+        >
+          <div
+            class="pokeball_icon"
+          >
+            <img
+              alt="pokeball icon"
+              data-nimg="1"
+              decoding="async"
+              height="150"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Fpokeball-icon.png&w=384&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fpokeball-icon.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fpokeball-icon.png&w=384&q=75 2x"
+              style="color: transparent;"
+              width="150"
+            />
+          </div>
+          <div
+            class="points_icon"
+          >
+            <img
+              alt="points icon"
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Fpoints-icon.png&w=128&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fpoints-icon.png&w=64&q=75 1x, /_next/image?url=%2Fimages%2Fpoints-icon.png&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="lines_icon"
+          >
+            <img
+              alt="lines icon"
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Flines-icon.png&w=128&q=75"
+              srcset="/_next/image?url=%2Fimages%2Flines-icon.png&w=64&q=75 1x, /_next/image?url=%2Fimages%2Flines-icon.png&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="pokemon_image"
+          >
+            <img
+              alt="pokemon image"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="200"
+              src="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F25.png&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F25.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F25.png&w=640&q=75 2x"
+              style="color: transparent;"
+              width="200"
+            />
+          </div>
+        </div>
+      </section>
+      <div
+        class="pokemon_stats light-card-bg"
+      >
+        <p
+          class="light-font"
+        >
+          Base Stats
+        </p>
+        <div
+          class="base_stats"
+        />
+      </div>
+    </article>
+  </div>
+</div>
+`;

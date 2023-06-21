@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokedex
 
-## Getting Started
+This is a Pokemon catalog developed as part of the technical test for the Frontend Developer role at Platzi. The application uses the public Pokemon API to display detailed information about different Pokemon.
 
-First, run the development server:
+<div align="center">
+  <img src="./public/images/pokedex.png" alt="Image" />
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-  Server Side Render (SSR) with Next.js: Next.js was chosen for its focus on performance, ease of SSR configuration, and the SEO advantages it offers.
+-  API Requests from the server: Initial data requests are made from the server to improve performance and efficiency.
+-  Includes a search bar that allows users to search for Pokemon by name and instantly display the results.
+-  Pokemon can be filtered and sorted by different attributes.
+-  Users can add Pokemon to a favorites list for quick access to the Pokemon they are interested in.
+-  Provides a button to switch between different appearance themes, including dark mode and light mode.
+-  Custom styles: An attractive and visually pleasing design has been applied using SASS.
+-  Responsive design: The website adapts and looks good on different devices and screen sizes.
+-  The code is written in TypeScript to improve its quality and robustness.
+-  Comprehensive testing has been included to ensure the quality and proper functioning of the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-  React
+-  Next.js
+-  TypeScript
+-  Context API
+-  Sass
+-  Jest
+-  Testing Library
 
-## Learn More
+## Installation and Execution Instructions
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone this repository to your local machine.
+2. Run `npm install` to install the dependencies.
+3. Run `npm run dev` to start the development server.
+4. Open your browser and access `http://localhost:3000` to see the application in action.

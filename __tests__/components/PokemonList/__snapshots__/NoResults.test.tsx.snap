@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoResults should match the snapshot 1`] = `
+<p
+  class="no_results light-font"
+>
+  No Pokemons Found.
+</p>
+`;

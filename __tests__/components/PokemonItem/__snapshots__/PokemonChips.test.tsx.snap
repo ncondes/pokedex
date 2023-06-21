@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonChips should match the snapshot 1`] = `
+<div>
+  <div
+    class="pokemon_chips"
+  >
+    <div
+      class="pokemon_chip"
+    >
+      Grass
+    </div>
+    <div
+      class="pokemon_chip"
+    >
+      Fire
+    </div>
+    <div
+      class="pokemon_chip"
+    >
+      Water
+    </div>
+  </div>
+</div>
+`;
