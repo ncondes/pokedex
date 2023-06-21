@@ -1,0 +1,1 @@
+export { sortArrayOfObjectsByName } from './sortArrayOfObjectsByName'
