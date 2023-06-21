@@ -1,0 +1,9 @@
+@use '@/scss/colors' as *;
+
+.light-body-bg {
+   background-color: $light-body-bg-color;
+}
+
+.dark-body-bg {
+   background-color: $dark-body-bg-color;
+}

@@ -1,5 +1,6 @@
 import { Roboto } from 'next/font/google'
 import { Wrapper } from '@/components/Wrapper'
+import { ThemeProvider } from '@/context/theme'
 import '@/scss/index.scss'
 
 const roboto = Roboto({
@@ -52,7 +53,9 @@ export default function RootLayout({
             <link rel="icon" href="/favicon.ico" sizes="any" />
          </head>
          <body className={roboto.className}>
-            <Wrapper>{children}</Wrapper>
+            <ThemeProvider>
+               <Wrapper>{children}</Wrapper>
+            </ThemeProvider>
          </body>
       </html>
    )

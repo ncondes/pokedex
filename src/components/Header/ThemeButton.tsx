@@ -1,12 +1,12 @@
 'use client'
 
-import { FC } from 'react'
+import { ThemeContext } from '@/context/theme'
+import { FC, useContext } from 'react'
 
 export const ThemeButton: FC = () => {
-   const theme = 'light'
-   const handleClick = () => {
-      console.log('toggle theme')
-   }
+   const { theme, toggleTheme } = useContext(ThemeContext)
+
+   const handleClick = () => toggleTheme()
 
    return (
       <button onClick={handleClick}>
