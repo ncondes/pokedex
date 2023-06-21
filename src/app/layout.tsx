@@ -1,7 +1,11 @@
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
+import { Wrapper } from '@/components/Wrapper'
 import '@/scss/index.scss'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+   weight: ['100', '300', '500', '700', '900'],
+   subsets: ['latin'],
+})
 
 export const metadata = {
    title: 'Pokedex App',
@@ -47,7 +51,9 @@ export default function RootLayout({
             />
             <link rel="icon" href="/favicon.ico" sizes="any" />
          </head>
-         <body className={inter.className}>{children}</body>
+         <body className={roboto.className}>
+            <Wrapper>{children}</Wrapper>
+         </body>
       </html>
    )
 }
