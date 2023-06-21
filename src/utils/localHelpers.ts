@@ -20,6 +20,8 @@ export const setFavorites = (favorites: number[]) => {
 }
 
 export const existsInFavorites = (id: number): boolean => {
+   if (typeof window === 'undefined') return false
+
    const favorites = getFavorites()
    return favorites.includes(id)
 }
