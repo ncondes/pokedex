@@ -1,3 +1,4 @@
+import { PokemonList } from '@/components/PokemonList'
 import { getPokemons } from '@/services'
 import { sortArrayOfObjectsByName } from '@/utils'
 
@@ -8,7 +9,7 @@ export default async function Home() {
 
    return (
       <main>
-         <h1>Hello World</h1>
+         <PokemonList pokemons={sortedPokemons} />
       </main>
    )
 }
