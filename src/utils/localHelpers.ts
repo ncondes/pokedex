@@ -33,13 +33,9 @@ export const existsInFavorites = (id: number): boolean => {
 }
 
 export const getLocalTheme = () => {
-   if (typeof window === 'undefined') return 'light'
-
-   return localStorage.getItem('pokemon-theme') || 'light'
+   return localStorage?.getItem('pokemon-theme') || 'light'
 }
 
 export const setLocalTheme = (theme: string) => {
-   if (typeof window === 'undefined') return
-
-   localStorage.setItem('pokemon-theme', theme)
+   localStorage?.setItem('pokemon-theme', theme)
 }

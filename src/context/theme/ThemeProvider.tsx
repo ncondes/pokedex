@@ -1,13 +1,11 @@
 'use client'
 
-import { FC, PropsWithChildren, useState } from 'react'
+import { FC, PropsWithChildren, useEffect, useState } from 'react'
 import { ThemeContext } from './ThemeContext'
 import { getLocalTheme, setLocalTheme } from '@/utils'
 
-const INITIAL_THEME = getLocalTheme() as 'light' | 'dark'
-
 export const ThemeProvider: FC<PropsWithChildren> = ({ children }) => {
-   const [theme, setTheme] = useState<'light' | 'dark'>(INITIAL_THEME)
+   const [theme, setTheme] = useState<'light' | 'dark'>('light')
 
    const toggleTheme = () => {
       const t = theme === 'light' ? 'dark' : 'light'
@@ -16,6 +14,11 @@ export const ThemeProvider: FC<PropsWithChildren> = ({ children }) => {
    }
 
    const useTheme = (className: string): string => `${theme}-${className}`
+
+   useEffect(() => {
+      const initialTheme = getLocalTheme() as 'light' | 'dark'
+      setTheme(initialTheme)
+   }, [])
 
    return (
       <ThemeContext.Provider value={{ theme, toggleTheme, useTheme }}>
