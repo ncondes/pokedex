@@ -24,7 +24,6 @@ export const SearchBox: FC<Props> = ({ callback }) => {
 
    useEffect(() => {
       callback(debouncedValue)
-      //   TODO: comment why callback is missing
       // eslint-disable-next-line react-hooks/exhaustive-deps
    }, [debouncedValue])
 

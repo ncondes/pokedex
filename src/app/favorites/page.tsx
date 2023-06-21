@@ -1,7 +1,10 @@
+import { FavoritePokemons } from '@/components/FavoritePokemons'
+import { FavoritesProvider } from '@/context/favorites'
+
 export default function Favorites() {
    return (
-      <main>
-         <h1>Favorites</h1>
-      </main>
+      <FavoritesProvider>
+         <FavoritePokemons />
+      </FavoritesProvider>
    )
 }

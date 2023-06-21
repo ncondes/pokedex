@@ -11,11 +11,11 @@
       grid-template-columns: repeat(2, minmax(280px, 1fr));
    }
 
-   @include breakpoint-up('md') {
+   @include breakpoint-up('lg') {
       grid-template-columns: repeat(3, minmax(280px, 1fr));
    }
 
-   @include breakpoint-up('md') {
+   @include breakpoint-up('xl') {
       grid-template-columns: repeat(4, minmax(280px, 1fr));
    }
 }

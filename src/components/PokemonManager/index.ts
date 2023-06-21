@@ -1,0 +1,1 @@
+export { PokemonManager } from './PokemonManager'

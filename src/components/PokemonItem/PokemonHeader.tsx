@@ -1,8 +1,11 @@
 'use client'
 
-import { FC } from 'react'
+import { FC, useContext } from 'react'
 import { capitalize } from '@/utils'
+import { useFavoritePokemon } from '@/hooks'
+import { usePathname } from 'next/navigation'
 import styles from './PokemonItem.module.scss'
+import { FavoritesContext } from '@/context/favorites'
 
 interface Props {
    id: number
@@ -10,18 +13,18 @@ interface Props {
 }
 
 export const PokemonHeader: FC<Props> = ({ id, name }) => {
-   const isFavorite = true
-   const isLoading = false
+   const { isFavorite, isLoading, handleToggle } = useFavoritePokemon(id)
+   const { handleRemoveFromFavorites } = useContext(FavoritesContext)
+   const pathname = usePathname()
 
-   const handleFavoriteButton = () => {
-      // TODO: handleFavoriteButton
-      console.log('Favorite')
+   const handleClick = () => {
+      pathname === '/favorites' ? handleRemoveFromFavorites(id) : handleToggle()
    }
 
    return (
       <div className={styles.pokemon_header}>
          <h2>{capitalize(name)}</h2>
-         <button onClick={handleFavoriteButton} disabled={isLoading}>
+         <button onClick={handleClick} disabled={isLoading}>
             {isLoading ? (
                <i className="fa-solid fa-spinner fa-spin"></i>
             ) : (

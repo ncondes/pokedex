@@ -1,4 +1,5 @@
 import { Roboto } from 'next/font/google'
+import { Metadata } from 'next'
 import { Wrapper } from '@/components/Wrapper'
 import { ThemeProvider } from '@/context/theme'
 import '@/scss/index.scss'
@@ -8,8 +9,11 @@ const roboto = Roboto({
    subsets: ['latin'],
 })
 
-export const metadata = {
+export const metadata: Metadata = {
    title: 'Pokedex App',
+   icons: {
+      icon: '/favicon.ico',
+   },
    description:
       'Unleash your inner Pokemon trainer with the Pokemon App. Discover a vast collection of diverse and fascinating Pokemon creatures, collect your favorites, and embark on exciting adventures. Learn about their unique abilities, uncover captivating stories, and become a master trainer. Start your Pokemon journey today!',
    keywords: [
@@ -50,7 +54,6 @@ export default function RootLayout({
                crossOrigin="anonymous"
                referrerPolicy="no-referrer"
             />
-            <link rel="icon" href="/favicon.ico" sizes="any" />
          </head>
          <body className={roboto.className}>
             <ThemeProvider>

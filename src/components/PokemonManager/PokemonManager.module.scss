@@ -18,18 +18,3 @@
       grid-gap: 1rem;
    }
 }
-
-.introduction {
-   margin-bottom: 1rem;
-   text-align: center;
-   font-size: 1rem;
-   font-weight: 300;
-}
-
-.introduction_extended {
-   display: none;
-
-   @include breakpoint-up('md') {
-      display: block;
-   }
-}
