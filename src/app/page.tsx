@@ -1,6 +1,7 @@
 import { PokemonList } from '@/components/PokemonList'
 import { getPokemons } from '@/services'
 import { sortArrayOfObjectsByName } from '@/utils'
+import { HomeView } from '@/views/Home'
 
 export default async function Home() {
    // as this is a server side rendered app, we can fetch data here
@@ -9,7 +10,7 @@ export default async function Home() {
 
    return (
       <main>
-         <PokemonList pokemons={sortedPokemons} />
+         <HomeView data={pokemons} />
       </main>
    )
 }
