@@ -35,3 +35,13 @@ This is a Pokemon catalog developed as part of the technical test for the Fronte
 2. Run `npm install` to install the dependencies.
 3. Run `npm run dev` to start the development server.
 4. Open your browser and access `http://localhost:3000` to see the application in action.
+
+## Deployment
+
+The Pokedex application has been deployed and is accessible at the following URL:
+
+[Live Demo](https://main--rainbow-cucurucho-ab3d5a.netlify.app/)
+
+You can visit the above URL to see the live version of the application and explore its features.
+
+Please note that the deployment is hosted on Netlify, and the URL provided may change or become unavailable in the future.
