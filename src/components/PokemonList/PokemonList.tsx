@@ -2,6 +2,7 @@ import { FC } from 'react'
 import { Pokemon } from '@/interfaces'
 import { NoResults } from './NoResults'
 import styles from './PokemonList.module.scss'
+import { PokemonItem } from '../PokemonItem'
 
 interface Props {
    pokemons: Pokemon[]
@@ -15,7 +16,7 @@ export const PokemonList: FC<Props> = ({ pokemons }) => {
          ) : (
             <div className={styles.pokemon_grid}>
                {pokemons.map((pokemon) => (
-                  <p key={pokemon.id}>{pokemon.name}</p>
+                  <PokemonItem key={pokemon.id} pokemon={pokemon} />
                ))}
             </div>
          )}
