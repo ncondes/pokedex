@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeButton should match the snapshot 1`] = `
+<div>
+  <button>
+    <i
+      class="fa-regular fa-moon fa-xl"
+    />
+  </button>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <ul>
+      <li>
+        <a
+          class="home_link"
+          href="/"
+        >
+          <div>
+            <img
+              alt="pokeball icon"
+              data-nimg="1"
+              decoding="async"
+              height="25"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Fpokeball-icon-color.png&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fpokeball-icon-color.png&w=32&q=75 1x, /_next/image?url=%2Fimages%2Fpokeball-icon-color.png&w=64&q=75 2x"
+              style="color: transparent;"
+              width="25"
+            />
+          </div>
+          <span>
+            Pokedex
+          </span>
+        </a>
+      </li>
+      <div
+        class="theme_and_favorites_links"
+      >
+        <li>
+          <button>
+            <i
+              class="fa-regular fa-sun fa-xl"
+            />
+          </button>
+        </li>
+        <li>
+          <a
+            aria-label="favorites link"
+            href="/favorites"
+          >
+            <i
+              class="fa-regular fa-heart fa-lg"
+            />
+          </a>
+        </li>
+      </div>
+    </ul>
+  </header>
+</div>
+`;

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonStats should match the snapshot 1`] = `
+<div>
+  <div
+    class="pokemon_stats light-card-bg"
+  >
+    <p
+      class="light-font"
+    >
+      Base Stats
+    </p>
+    <div
+      class="base_stats"
+    >
+      <div
+        class="pokemon_stat light-font"
+      >
+        <span>
+          Hp
+        </span>
+        <b>
+          100
+        </b>
+        <div
+          class="pokemon_statbar_container"
+        >
+          <div
+            class="pokemon_statbar_bar"
+          >
+            <div
+              style="width: 100%; background: rgb(136, 196, 95);"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="pokemon_stat light-font"
+      >
+        <span>
+          Attack
+        </span>
+        <b>
+          80
+        </b>
+        <div
+          class="pokemon_statbar_container"
+        >
+          <div
+            class="pokemon_statbar_bar"
+          >
+            <div
+              style="width: 80%; background: rgb(136, 196, 95);"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="pokemon_stat light-font"
+      >
+        <span>
+          Defense
+        </span>
+        <b>
+          65
+        </b>
+        <div
+          class="pokemon_statbar_container"
+        >
+          <div
+            class="pokemon_statbar_bar"
+          >
+            <div
+              style="width: 65%; background: rgb(136, 196, 95);"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

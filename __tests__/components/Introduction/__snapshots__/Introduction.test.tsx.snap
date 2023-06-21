@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Introduction should match the snapshot 1`] = `
+<div>
+  <p
+    class="introduction light-font"
+  >
+    Discover and explore a vast collection of diverse and fascinating Pokemon creatures.
+     
+    <span
+      class="introduction_extended"
+    >
+      Easily search for your favorite Pokemon, learn about their unique abilities, and uncover their captivating stories. Start your adventure now and delve into the magical world of Pokemon!
+    </span>
+  </p>
+</div>
+`;

@@ -11,7 +11,7 @@ interface Props {
 }
 
 export const PokemonItem: FC<Props> = ({ pokemon }) => {
-   const type = `pokemon-type-${pokemon.types[0].type.name || 'default'}`
+   const type = `pokemon-type-${pokemon.types?.[0].type.name || 'default'}`
 
    return (
       <article className={`${styles.pokemon_card} ${type}`}>

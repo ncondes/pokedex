@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favorites should match the snapshot 1`] = `
+<div>
+  <a
+    aria-label="favorites link"
+    href="/favorites"
+  >
+    <i
+      class="fa-solid fa-heart fa-lg"
+    />
+  </a>
+</div>
+`;
